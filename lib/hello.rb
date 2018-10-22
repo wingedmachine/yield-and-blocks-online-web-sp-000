@@ -1,6 +1,6 @@
 def hello_t(array)
   if !block_given?
-    puts "Hey! No block was given!" 
+    puts "Hey! No block was given!"
   else
     i = 0
     while i < array.size
